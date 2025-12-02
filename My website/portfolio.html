@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Wenxi Chu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="clearfix">
+    <div class="logo">Wenxi Chu</div>
+    <button class="night-toggle" onclick="toggleNightMode()">🌙 Night Mode</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content fade-in">
+    <h2>Project Portfolio</h2>
+    <div class="project-gallery">
+      <img src="wrenG.png" alt="Spotted Wren Garden Center HTML/CSS project" class="project-img" />
+      <img src="terminal.png" alt="Linux shell scripting terminal output" class="project-img" />
+      <img src="stats.png" alt="Statistics Excel dashboard visualization" class="project-img" />
+    </div>
+    <h3>Featured Projects</h3>
+    <ul>
+      <li><strong>Spotted Wren Garden Center</strong> &ndash; Responsive HTML/CSS e-commerce</li>
+      <li><strong>IT 244 Linux Shell Scripts</strong> &ndash; System automation tasks</li>
+      <li><strong>Statistics Dashboard</strong> &ndash; Excel probability &amp; data analysis</li>
+    </ul>
+  </main>
+
+  <footer class="clearfix">
+    <p>&copy; 2025 Wenxi Chu. All Rights Reserved. | Phone: (857) 829-7990</p>
+    <p><a href="https://www.linkedin.com/in/wenxichu" target="_blank">LinkedIn</a> | <a href="https://github.com/Nutrision" target="_blank">GitHub</a></p>
+  </footer>
+  <script>function toggleNightMode(){document.body.classList.toggle('night-mode')}</script>
+</body>
+</html>
