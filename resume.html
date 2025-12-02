@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Wenxi Chu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="clearfix">
+    <div class="logo">Wenxi Chu</div>
+    <button class="night-toggle" onclick="toggleNightMode()">🌙 Night Mode</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content fade-in">
+    <h2>Professional Resume</h2>
+    
+    <div class="resume-preview">
+      <div class="resume-content">
+        <h3>Technical Skills</h3>
+        <table>
+          <tr><th>Skill</th><th>Proficiency</th></tr>
+          <tr><td>HTML/CSS</td><td>Advanced</td></tr>
+          <tr><td>JavaScript</td><td>Intermediate</td></tr>
+          <tr><td>Python</td><td>Proficient</td></tr>
+          <tr><td>C++</td><td>Proficient</td></tr>
+          <tr><td>Java</td><td>Proficient</td></tr>
+          <tr><td>Linux/Unix</td><td>Proficient</td></tr>
+          <tr><td>Excel/Stats</td><td>Advanced</td></tr>
+        </table>
+
+        <h3>Education</h3>
+        <ul>
+          <li><strong>University of Massachusetts Boston</strong><br>
+            Bachelor of Science in IT (Expected: May 2028)<br>
+            CS 110, ENGL 101, CS 187SL, CINE 295L, MATH 140, CS 240, IT 244, IT 111L, IT 240, Electives
+          </li>
+          <li><strong>Belmont High School, MA</strong><br>
+            High School Diploma (July 2024)<br>
+            Senior Project: "Mental Limits" &ndash; Study on social definitions of mental sanity
+          </li>
+          <li><strong>Albuquerque Institute for Math &amp; Science, NM</strong><br>
+            2017.8 - 2021.5 (Grades 6-9)
+          </li>
+          <li><strong>Monte Vista Elementary, NM</strong><br>
+            2015.8 - 2017.5 (Grades 4-5)
+          </li>
+          <li><strong>Guandao Elementary, Xuzhou, China</strong><br>
+            2012.9 - 2015.7 (Grades 1-3)
+          </li>
+        </ul>
+      </div>
+      
+      <div class="resume-pdf">
+        <h3>Full Resume PDF</h3>
+        <iframe src="RESUME - Wenxi Chu.pdf"></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer class="clearfix">
+    <p>&copy; 2025 Wenxi Chu. All Rights Reserved. | Phone: (857) 829-7990</p>
+    <p>
+      <a href="https://www.linkedin.com/in/wenxichu" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/Nutrision" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <script>
+    function toggleNightMode() {
+      document.body.classList.toggle('night-mode');
+    }
+  </script>
+</body>
+</html>

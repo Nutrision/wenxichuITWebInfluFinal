@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wenxi Chu | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="clearfix">
+    <div class="logo">Wenxi Chu</div>
+    <button class="night-toggle" onclick="toggleNightMode()">🌙 Night Mode</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero clearfix fade-in">
+      <img src="IMG_7124.jpg" alt="Wenxi Chu professional headshot" class="hero-img" />
+      <div class="intro">
+        <h1>Hello, I'm Wenxi Chu</h1>
+        <p>Welcome to my personal &trade; website. IT student at UMB showcasing skills &amp; projects for employers &amp; collaborators.</p>
+      </div>
+    </section>
+
+    <section class="content fade-in">
+      <h2>Explore My Work</h2>
+      <ul>
+        <li><a href="resume.html">Resume</a> &ndash; Experiences, skills &amp; education</li>
+        <li><a href="portfolio.html">Portfolio</a> &ndash; Coding projects &amp; achievements</li>
+        <li><a href="about.html">About Me</a> &ndash; Goals, values &amp; interests</li>
+        <li><a href="contact.html">Contact</a> &ndash; Get in touch today</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="clearfix">
+    <p>&copy; 2025 Wenxi Chu. All Rights Reserved.</p>
+    <p>
+      <a href="https://www.linkedin.com/in/wenxichu" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/Nutrision" target="_blank">GitHub</a> | 
+      <a href="mailto:wenxi.chu06@gmail.com">wenxi.chu06@gmail.com</a> 
+      or <a href="mailto:Wenxi.Chu001@umb.edu">Wenxi.Chu001@umb.edu</a>
+    </p>
+    <audio controls>
+      <source src="siteintro.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </footer>
+
+  <script>
+    function toggleNightMode() {
+      document.body.classList.toggle('night-mode');
+    }
+  </script>
+</body>
+</html>
